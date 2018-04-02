@@ -170,8 +170,8 @@ def run():
     #  https://www.cityscapes-dataset.com/
 
     # Hyperparams
-    epochs = 10
-    batch_size = 1
+    epochs = 15
+    batch_size = 16
 
     correct_label = tf.placeholder(tf.float32, [None, image_shape[0], image_shape[1], num_classes], name="correct_label")
     learning_rate = tf.placeholder(tf.float32, name='learning_rate')
@@ -203,7 +203,7 @@ def run():
         #  helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prob, input_image)
         # Save inference data using helper.save_inference_samples
         print("Saving inference data..")
-        helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prob, input_image)
+        helper.save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_prob, input_layer)
 
         # OPTIONAL: Apply the trained model to a video
 
