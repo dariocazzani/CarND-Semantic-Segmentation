@@ -3,8 +3,12 @@
 Semantic segmentation is understanding an image at pixel level. We want to assign a label for each pixel in an image.
 The goal of this project is to label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
+--------------------
+
 ### Theory
 Please refer to the original paper: [Fully Convolutional Networks for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+
+--------------------
 
 ### Setup
 ##### Frameworks and Packages
@@ -16,10 +20,22 @@ Make sure you have the following is installed:
 ##### Dataset
 Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training a test images.
 
-### Start
+--------------------
 
+### Start
 ##### Run
 Run the following command to run the project:
 ```
 python main.py
 ```
+
+--------------------
+
+### Results
+
+Please check the following images taken from the test set.
+
+![image1]()
+![image1]()
+![image1]()
+![image1]()
