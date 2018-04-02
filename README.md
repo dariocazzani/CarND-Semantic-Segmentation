@@ -35,7 +35,7 @@ python main.py
 
 Please check the following images taken from the test set.
 
-![image1]()
-![image1]()
-![image1]()
-![image1]()
+![image1](https://github.com/dariocazzani/CarND-Semantic-Segmentation/blob/master/images/um_000000.png)
+![image1](https://github.com/dariocazzani/CarND-Semantic-Segmentation/blob/master/images/um_000007.png)
+![image1](https://github.com/dariocazzani/CarND-Semantic-Segmentation/blob/master/images/umm_000042.png)
+![image1](https://github.com/dariocazzani/CarND-Semantic-Segmentation/blob/master/images/uu_000085.png)
