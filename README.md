@@ -23,6 +23,13 @@ Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road
 --------------------
 
 ### Start
+
+#### Requirements
+
+```
+pip install -r requirements.txt
+```
+
 ##### Run
 Run the following command to run the project:
 ```
